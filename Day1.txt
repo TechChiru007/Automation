@@ -1,0 +1,8 @@
+Learning about python
+
+basic function structure.
+
+def greet(name):
+ return print("Hello",name);
+
+greet("Ram");''
