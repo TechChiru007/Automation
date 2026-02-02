@@ -1,0 +1,21 @@
+IMP CMD TO CREATE AND REMOVE DIRECTORY AND FILES
+
+1.mkdir name  (make directory)
+2.dir         (list of directory)
+3.rmdir name  (permanently remove directory)
+
+1.echo > file.txt (create file)
+2.notepad file.txt (create file)
+3.del file.txt (permanently delete file)
+
+Git cmd
+1.git init
+2.git add *
+3.git status
+4.git commit -m "txt"
+5.git remote add origin repopath
+6.git push origin main
+7.git log
+8.git clone repopath
+9.git revert #key
+10.git rebase
