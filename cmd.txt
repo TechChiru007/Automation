@@ -19,3 +19,22 @@ Git cmd
 8.git clone repopath
 9.git revert #key
 10.git rebase
+
+Git branch cmd
+Branch Management Commands
+Here are the most common Git branch commands:
+git branch: Lists all local branches in your repository. The current branch will be marked with an asterisk (*).
+git branch [branch-name]: Creates a new local branch named [branch-name]. This command creates the branch but does not switch to it.
+git checkout [branch-name] or git switch [branch-name]: Switches your working directory to the specified branch.
+git checkout -b [new-branch-name] or git switch -c [new-branch-name]: A convenient shortcut that creates a new branch and immediately switches to it.
+git branch -d [branch-name]: Deletes the specified branch, but only if it has already been fully merged into the current HEAD.
+git branch -D [branch-name]: Forces the deletion of a branch, even if it contains unmerged changes.
+git branch -m [old-name] [new-name]: Renames a local branch.
+git branch -a: Lists all branches, including local and remote-tracking branches.
+git branch --merged: Lists branches that have already been merged into your current branch.
+git branch --no-merged: Lists branches that contain unmerged work. 
+Related Commands
+While not strictly git branch commands, these are essential for a complete branching workflow:
+git merge [branch-name]: Integrates changes from the specified [branch-name] into your current active branch.
+git push origin --delete [branch-name]: Deletes a branch from your remote repository (e.g., on GitHub or Bitbucket).
+git push -u origin [branch-name]: Pushes a new local branch to the remote repository and sets the upstream reference. 
