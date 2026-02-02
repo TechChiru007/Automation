@@ -1,1 +1,7 @@
-ECHO is on.
+Hooks(https://www.geeksforgeeks.org/software-testing/cypress-hooks/)
+before,beforeEach,after,afterEach
+
+include and exclude test
+it.skip("",()=>{
+
+})
