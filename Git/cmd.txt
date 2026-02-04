@@ -11,6 +11,7 @@ IMP CMD TO CREATE AND REMOVE DIRECTORY AND FILES
 Git cmd
 1.git init
 2.git add *
+2.1 git reset file to undo reset(remove file from staging)
 3.git status
 4.git commit -m "txt"
 5.git remote add origin repopath
